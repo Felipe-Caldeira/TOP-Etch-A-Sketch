@@ -21,6 +21,7 @@ function createGrid(size) {
 
 function fillCell(event) {
     event.target.style.backgroundColor = "black";
+    event.preventDefault();
 }
 
 
