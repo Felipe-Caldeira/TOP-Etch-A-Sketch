@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <title>Etch-a-Sketch!</title>
 </head>
+
 <body>
-    <header>Felipe Caldeira's Etch-a-Sketch Project
+    <header>Etch-a-Sketch</header>
+    <div class="etchContainer"></div>
+    <div class="optionsContainer">
         <button class="resetGrid" onclick="resetGrid()">Reset Grid</button>
-    </header>
-    <div class="etchContainer">
-
+        <div class="colorSelector">Color: 
+            <input type="color">
+        </div>
     </div>
-
+    <footer>Made by Felipe Caldeira for The Odin Project</footer>
     <script src="etch.js"></script>
 </body>
+
 </html>
